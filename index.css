@@ -11,15 +11,14 @@ body {
 .topnav {
 
   overflow: hidden;
-  background-image: radial-gradient(circle at 71.37% 35.04%, #ff7038 0, #ff623e 16.67%, #ff5341 33.33%, #f44444 50%, #e53546 66.67%, #d72747 83.33%, #c91849 100%);
+  background-color: rgba(221, 221, 221, 0.116);
 }
-
 /* Style the topnav links */
 .topnav a {
   
   float: left;
   display: block;
-  color: #ffff;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -36,18 +35,19 @@ body {
 
 
 .topnav a:hover {
-  background-color: rgb(211, 91, 91);
+  background-color: rgba(248, 229, 229, 0.568);
   color: black;
 }
 
 .imagen{
-  background-image: url(img/fondo_top.jpg);
+  background-image: url(img/sebastianmirandoasuizq.jpg);
   background-size: 100%;
+  background-position-y: 25%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #ddd;
-  padding: 30px;
-  height: 450px; /* Should be removed. Only for demonstration */
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
 }
 
 .center{
