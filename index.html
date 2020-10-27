@@ -14,7 +14,88 @@
         </head>
         <body>
         
-        
+        <style>
+          .container{
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-left: 20px;
+}
+
+#toggle{
+  display: none;
+}
+
+.button{
+  z-index: 999;
+  width: 43px;
+  height: 43px;
+  background-color: crimson;
+  color: #f1f1f1;
+  border-radius: 100%;
+  transition: all 0.10s ease-in-out;
+  box-shadow: 1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.button:before{
+  position: absolute;
+  top: 20px;
+  left: 9x;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: rgb(235, 9, 9);
+  transition: rotate(90deg);
+}
+
+.button:after{
+  position: absolute;
+  top: 20px;
+  content: "";
+  width: 25px;
+  height: 2px;
+  background: rgb(141, 57, 57);
+}
+
+.nav{
+  transform: translateY(-10%);
+  opacity: 0;
+  top: 13px;
+  left: -50px;
+  transition: all 0.5 ease-in-out;
+  background: rgb(170, 63, 63);
+  width: 150px;
+  border-radius: 5px;
+  transform: translateY(0%);
+  box-shadow: 2px 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav a{
+  text-align: center;
+  display: block;
+  margin: 20px 0;
+  color: aquamarine;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#toggle:checked ˜ .nav{
+  opacity: 1;
+  transform: translateY(10%);
+  
+}
+
+/*Habilidades*/
+
+.container_hab {
+  width: 100%; /* Full width */
+  box-sizing:border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+        </style>
           <!--Menu de navegacion superior-->
         <div class="imagen center">
           <div class="topnav">
@@ -44,22 +125,22 @@
           <h1 class="center">Habilidades</h1>
 
             <p class="center">HTML <img src="img/html.png" width="23px" height="23px" alt=""></p>
-            <div class="container">
+            <div class="container_hab">
               <div class="skills html">2 años de practica</div>
             </div>
 
             <p class="center">CSS <img src="img/css.png" width="23px" height="23px" alt=""></p>
-            <div class="container">
+            <div class="container_hab">
               <div class="skills css">2 años de practica</div>
             </div>
 
             <p class="center">JavaScript <img src="img/js.png" width="23px" height="23px" alt=""></p>
-            <div class="container">
+            <div class="container_hab">
               <div class="skills js">1 año de practica</div>
             </div>
 
             <p class="center">Phyton <img src="img/py.png" width="33px" height="33px" alt=""></p>
-            <div class="container">
+            <div class="container_hab">
               <div class="skills py">6 meses de practica</div>
             </div>
             <br><br>
