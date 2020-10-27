@@ -2,18 +2,16 @@
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
 }
-
 body {
   margin: 0;
 }
-
-/* Style the top navigation bar */
+/* Estilos de la barra de navegación */
 .topnav {
 
   overflow: hidden;
   background-color: rgba(221, 221, 221, 0.116);
 }
-/* Style the topnav links */
+/* Estilos de los a de navegación */
 .topnav a {
   
   float: left;
@@ -23,22 +21,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-
-.texto{}
-
+/*Color rojo del boton inicio de navegacíón*/
 .inicio{
   background-color: rgb(250, 71, 71);
   color: #ffff;
 }
-/* Change color on hover */
-
-
+/* Hover de navegacion */
 .topnav a:hover {
   background-color: rgba(248, 229, 229, 0.568);
   color: black;
 }
-
+/*Estilos del fondo de la portada*/
 .imagen{
   background-image: url(img/sebastianmirandoasuizq.jpg);
   background-size: 100%;
@@ -50,23 +43,82 @@ body {
   height: 600px; /* Should be removed. Only for demonstration */
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px  black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgb(250, 71, 71);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color:  rgb(250, 71, 71) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
 .center{
   text-align: center;
 }
-
-.izquierda{
-
-}
-/* Style the content */
+/* Estilos del contenido */
 .content {
   background-color: rgb(32, 32, 32);
   color: #ffff;
   padding: 30px;
-  height: 200px; /* Should be removed. Only for demonstration */
+  height: 200px; 
 }
 
-/* Style the footer */
+
+
+/*Habilidades*/
+
+.container {
+  width: 100%; /* Full width */
+  box-sizing:border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.skills {
+  text-align: center; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #f44336;} /* Green */
+.css {width: 90%; background-color: #4e4e4e;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.py {width: 60%; background-color: #4e4e4e;} /* Dark Grey */
+
+/* footer */
 .footer {
   background-color: #f1f1f1;
   padding: 10px;
+  text-align: center;
 }
