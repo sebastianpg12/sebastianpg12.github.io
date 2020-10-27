@@ -104,6 +104,9 @@ body {
   padding-right: 20px;
 }
 
+.habilidades{
+  background-color: rgb(255, 255, 255);
+}
 .skills {
   text-align: center; /* Right-align text */
   padding-top: 10px; /* Add top padding */
