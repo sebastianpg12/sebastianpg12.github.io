@@ -35,10 +35,10 @@ body {
 }
 /*Estilos del fondo de la portada*/
 .imagen{
-  background-image: url(img/Diseño\ sin\ título\ \(5\).gif);
+  background-image: url(img/Diseño\ sin\ título\ \(6\).gif);
   background-size: 100%;
   background-position-y: 25%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   color: rgb(0, 0, 0);
   height: 600px; /* Should be removed. Only for demonstration */
