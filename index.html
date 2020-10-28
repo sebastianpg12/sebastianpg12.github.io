@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Pagina Inicial</title>
+    <title>Portafolio Sebastián Pulgarín Gómez</title>
 </head>
 <body>
         </head>
@@ -44,7 +44,7 @@
 
         <!--Acerca de-->  
         <div class="content center" id="acerca">
-          
+          <h3>Hobbies</h3>
         </div>
         <!--Habilidades-->
         <div class="habilidades" id="habilidades">
@@ -73,7 +73,7 @@
         </div>
 
         <!--Menu flotante de redes sociales-->
-          <div class="container">
+          <div class="container_redes">
             <input type="checkbox" id="btn-mas">
             <div class="redes">
                 <a href="https://api.whatsapp.com/send?phone=573012508805&text=Hola%20Sebasti%C3%A1n%F0%9F%98%85" class="fab fa-whatsapp" target="_blank"></a>
@@ -90,10 +90,53 @@
     
         
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <!--Formulario-->
         <div class="contact" id="contact">
-          <div class="form-group">
-            <label for="comment">Comentarios:</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
+
+          <div class="container_form">
+            <form action="/">
+              <div class="row">
+                <div class="col-25">
+                  <label class="label_form" for="fname">Nombre</label>
+                </div>
+                <div class="col-75">
+                  <input class="input_form" type="text" id="fname" name="name" placeholder="Tu nombre..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label class="label_form" for="lname">Correo</label>
+                </div>
+                <div class="col-75">
+                  <input class="input_form_email" type="email" id="lname" name="lastname" placeholder="Tu correo...">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label class="label_form" for="country">Ciudad</label>
+                </div>
+                <div class="col-75">
+                  <select id="country" name="country">
+                    <option value="medellin">Medellín</option>
+                    <option value="cali">Cali</option>
+                    <option value="bogota">Bogota</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label class="label_form" for="subject">Comentario</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Escribe tu comentario aqui..." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Enviar">
+              </div>
+            </form>
+          </div>
+
           </div>
         </div>
         <div class="footer" id="foot">
