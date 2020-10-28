@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+
 }
 body {
   margin: 0;
@@ -9,7 +9,9 @@ body {
 .topnav {
 
   overflow: hidden;
-  background-color: rgba(221, 221, 221, 0.116);
+  background-color: rgba(221, 221, 221, 0.822);
+  position: fixed;
+  z-index: 2;
 }
 /* Estilos de los a de navegación */
 .topnav a {
@@ -33,20 +35,21 @@ body {
 }
 /*Estilos del fondo de la portada*/
 .imagen{
-  background-image: url(img/sebastianmirandoasuizq.jpg);
+  background-image: url(img/Diseño\ sin\ título\ \(5\).gif);
   background-size: 100%;
   background-position-y: 25%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: rgb(0, 0, 0);
-  padding: 10px;
   height: 600px; /* Should be removed. Only for demonstration */
 }
 
 .tooltip {
   position: relative;
   display: inline-block;
+  padding-top: 15%;
   border-bottom: 1px  black;
+  font-family: 'Allerta Stencil', sans-serif;
 }
 
 .tooltip .tooltiptext {
@@ -56,11 +59,11 @@ body {
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 5px 0;
+  padding: 1px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%;
-  left: 50%;
+  bottom: 30%;
+  left: 100px;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
@@ -82,6 +85,23 @@ body {
   opacity: 1;
 }
 
+.texto{
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.description{
+  padding-right: 70%;
+  padding-left: 5px;
+  font-size: 20px;
+  -webkit-text-fill-color: rgb(7, 3, 3);
+-webkit-text-stroke: 0.1px rgb(236, 216, 216);
+  
+}
+.name{
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 .center{
   text-align: center;
 }
@@ -93,8 +113,57 @@ body {
   height: 200px; 
 }
 
+.container_hab{
+  padding-left: 50px;
+}
 /*menu movil*/
 
+#btn-mas{
+  display: none;
+}
+.container{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.redes a, .icon-mas2{
+  display: block;
+  text-decoration: none;
+  background: rgb(250, 71, 71);
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+  transition: all 500ms ease;
+}
+.redes a:hover{
+  background: rgb(59, 59, 59);
+  color: #ffffff;
+}
+.redes a{
+  margin-bottom: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+.icon-mas2{
+  cursor: pointer;
+  background: rgb(39, 36, 36);
+  font-size: 23px;
+}
+#btn-mas:checked ~ .btn-mas .icon-mas2{
+  transform: rotate(137deg);
+  font-size: 25px;
+}
+
+/*Habilidades*/
 
 .habilidades{
   background-color: rgb(255, 255, 255);
