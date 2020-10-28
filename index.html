@@ -16,23 +16,26 @@
 <body>
         </head>
         <body>
+
+          
           <!--Menu de navegacion superior-->
         <div class="imagen">
           <div class="topnav center">
-            <a href="#footer" class="inicio">Acerca de</a>
-            <a href="#">Habilidades</a>
+            <a href="#acerca" class="inicio">Acerca de</a>
+            <a href="#habilidades">Habilidades</a>
             <a href="#">Información</a>
 
           </div>
 
           <!--Container de información-->
           <div class="text">
-            <div class="tooltip"><h1 class="name">Sebastián Pulgarín</h1>
+            <div class="tooltip"><h2 class="name">Sebastián Pulgarín Gómez</h2>
               <span class="tooltiptext">Estudiante de desarrolo de software</span>
             </div>
             <div class="text-block">
               <h4>Información</h4>
               <p>Sebastián Pulgarín Gómez (Colombia, 9 de enero de 2004-Cali, 16 años) Estudiante de media tecnica de Desarrollo de software con el politecnico jaime isaza y beneficiario de camino flexible de la Universidad de Medellín en la materia pensamiento algoritmico.</p>
+              <button class="button"><a href="#acerca"><span>Leer más </span></a></button>
             </div>
             
           </div>
@@ -40,21 +43,21 @@
           </div>
 
         <!--Acerca de-->  
-        <div class="content center">
+        <div class="content center" id="acerca">
           
         </div>
         <!--Habilidades-->
-        <div class="habilidades">
+        <div class="habilidades" id="habilidades">
           <h1 class="center">Habilidades</h1>
 
             <p class="center">HTML <img src="img/html.png" width="23px" height="23px" alt=""></p>
             <div class="container_hab">
-              <div class="skills html">2 años de practica</div>
+              <a href="https://www.hostinger.co/tutoriales/que-es-html/" target="_blank"><div class="skills html">2 años de practica</div></a>
             </div>
 
             <p class="center">CSS <img src="img/css.png" width="23px" height="23px" alt=""></p>
             <div class="container_hab">
-              <div class="skills css">2 años de practica</div>
+              <a href="https://www.hostinger.co/tutoriales/que-es-css/" target="_blank"><div class="skills css">2 años de practica</div></a> 
             </div>
 
             <p class="center">JavaScript <img src="img/js.png" width="23px" height="23px" alt=""></p>
@@ -73,10 +76,10 @@
           <div class="container">
             <input type="checkbox" id="btn-mas">
             <div class="redes">
-                <a href="#" class="fab fa-whatsapp"></a>
-                <a href="#" class="fab fa-facebook"></a>
-                <a href="#" class="fab fa-instagram"></a>
-                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://api.whatsapp.com/send?phone=573012508805&text=Hola%20Sebasti%C3%A1n%F0%9F%98%85" class="fab fa-whatsapp" target="_blank"></a>
+                <a href="https://www.facebook.com/sebastian.pulgarin.965/?viewas=" class="fab fa-facebook" target="_blank"></a>
+                <a href="https://www.instagram.com/sebastian_pulgarin09/" class="fab fa-instagram" target="_blank"></a>
+                <a href="https://twitter.com/SebastinPulga14" class="fab fa-twitter" target="_blank"></a>
             </div>
             <div class="btn-mas">
                 <label for="btn-mas" class="icon-mas2">
@@ -87,7 +90,7 @@
     
         
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <div class="footer">
+        <div class="footer" id="foot">
           <p>Pagina realizada por Sebastián Pulgarín Gómez</p>
         </div>
 
