@@ -235,6 +235,10 @@ body {
   opacity: 1;
   right: 0;
 }
+
+.contact{
+  background-color:  rgb(32, 32, 32);;
+}
 /* footer */
 .footer {
   background-color: #f1f1f167;
