@@ -123,6 +123,7 @@ body {
 
 .hobbies_title{
   font-family: 'Allerta Stencil', sans-serif;
+  color: #ccc;
 }
 
 /* Float four columns side by side */
@@ -158,27 +159,17 @@ body {
   text-align: center;
   background-color: #f1f1f1;
 }
-/*modales*/
-/* The Modal (background) */
-.modal .modal2 .modal3 .modal4 {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
+
 /* Estilos del contenido */
 .content {
-  background-color: rgb(32, 32, 32);
+  background-color: rgb(133, 132, 132);
   color: rgb(32, 29, 29);
   padding: 0px;
   height: 200px; 
+}
+
+.Espacio{
+  background-color: darkgray;
 }
 
 .container_hab{
@@ -294,7 +285,36 @@ body {
   opacity: 1;
   right: 0;
 }
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
 
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
 .contact{
   background-color:  rgb(32, 32, 32);;
 }
