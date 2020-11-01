@@ -387,7 +387,7 @@ input[type=submit]:hover {
 
 .perfil_flotante{
   position: fixed;
-  top: 10%;
+  top: 0.1%;
   right: 1%;
   text-align: center;
   color: #ccc;
@@ -397,22 +397,20 @@ input[type=submit]:hover {
 #mybtn{}
 
 .boton_biografia{
-  background:    #272626;
-  background:    linear-gradient(#272626, #272626 50%, #313134 50%, #313134);
-  border:        3px solid #f8f8f8;
-  border-radius: 11px;
-  box-shadow:    0 4px #444444;
-  padding:       10px 20px;
-  color:         #ffffff;
-  display:       inline-block;
-  font:          normal bold 18px/1 "Calibri", sans-serif;
-  text-align:    center;
+  background:    #000000;
+border:        1px solid #ffffff;
+border-radius: 11px;
+width:         100px;
+height:        35px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 14px/35px "Ubuntu", sans-serif;
+text-align:    center;
 }
 
 .boton_biografia:hover{
   background:    #272727;
-  background:    linear-gradient(#181717, #2c2b2b 50%, #313134 50%, #313134);
-  box-shadow:    0 7px #7c7c7c;
+  box-shadow:    0 5px #7c7c7c;
   text-align:    center;
 }
 
