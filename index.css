@@ -387,7 +387,7 @@ input[type=submit]:hover {
 
 .perfil_flotante{
   position: fixed;
-  top: 1%;
+  top: 10%;
   right: 1%;
   text-align: center;
   color: #ccc;
