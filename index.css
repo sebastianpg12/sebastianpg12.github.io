@@ -24,7 +24,7 @@ body {
   text-decoration: none;
 }
 /*Color rojo del boton inicio de navegacíón*/
-.inicio{
+.a_acerca{
   background-color: rgb(250, 71, 71);
   color: #ffff;
 }
@@ -34,14 +34,15 @@ body {
   color: black;
 }
 /*Estilos del fondo de la portada*/
-.imagen{
-  background-image: url(img/Diseño\ sin\ título\ \(6\).gif);
+.imagen_portada{
+  background-image: url(img/fondotemporal.gif);
   background-size: 100%;
-  background-position-y: 25%;
-  background-repeat: repeat;
+  background-position-y: 0%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   color: rgb(0, 0, 0);
   height: 600px; /* Should be removed. Only for demonstration */
+  margin: 0px;
 }
 
 /*Texto que sale al pasar el mouse encima*/
@@ -85,7 +86,7 @@ body {
   opacity: 1;
 }
 
-.texto{
+.text_portada{
   font-family: 'Allerta Stencil', sans-serif;
 }
 /*Texto que acompaña nombre*/
@@ -95,33 +96,23 @@ body {
   font-size: 22px;
 }
 /*Nombre*/
-.name{
-  text-align: right;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin-left: 15px;
-  background-color: rgba(0, 0, 0, 0.61);
+.name_portada{
+  text-align: center;
+  padding-right: 10%;
+  padding-left: 10%;
+  margin-left: 0%;
+  background-color: rgba(19, 18, 18, 0.61);
   color: #ffffff;
 }
 
-/*Informacion de Sebastián*/
-.text-block {
-  position: absolute;
-  left: 1%;
-  width: 30%;
-  top: 280px;
-  bottom: 90px;
-  background-color: rgba(0, 0, 0, 0.637);
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 .center{
   text-align: center;
 }
 /*estilos hobbies*/
 
 .hobbies_title{
+  padding-top: 2%;
   font-family: 'Allerta Stencil', sans-serif;
   color: #ccc;
 }
@@ -160,11 +151,11 @@ body {
   background-color: #f1f1f1;
 }
 
-/* Estilos del contenido */
-.content {
+/* Estilos del contenido de acerca de*/
+.ContentAcerca {
   background-color: rgb(133, 132, 132);
   color: rgb(32, 29, 29);
-  padding: 0px;
+  
   height: 200px; 
 }
 
@@ -228,7 +219,6 @@ body {
 .habilidades{
   background-color: #797979;
   background-size: 100%;
-
   background-repeat: repeat;
   text-decoration: none;
 }
@@ -393,4 +383,12 @@ input[type=submit]:hover {
   background-color: #f1f1f167;
   padding: 10px;
   text-align: center;
+}
+
+.perfil_flotante{
+  position: fixed;
+  bottom: 2%;
+  right: 88%;
+  text-align: center;
+  color: #ccc;
 }

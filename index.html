@@ -3,97 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Estilos del index-->
     <link rel="stylesheet" href="index.css">
     <!--Tipo de letra de google-->
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap" rel="stylesheet">
     <!--Framework w3schools-->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <!--Fontawesome-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Portafolio Sebastián Pulgarín Gómez</title>
+    <!--Javascript del proyecto-->
+    <script src="index.js"></script>
 </head>
-<body>
-        </head>
-        <body>
+
+        <body style="background-color: rgb(29, 29, 29);">
 
           
           <!--Menu de navegacion superior-->
-        <div class="imagen">
-          <div class="topnav center">
-            <a href="#acerca" class="inicio">Acerca de</a>
-            <a href="#habilidades">Habilidades</a>
-            <a href="#">Información</a>
+            <div class="imagen_portada">
+              
+              <div class="topnav center">
+                <a href="#acerca" class="a_acerca">Acerca de</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#">Información</a>
+              </div>
 
-          </div>
-
-          <!--Container de información-->
-          <div class="text">
-            <div class="tooltip"><h2 class="name">Sebastián Pulgarín Gómez</h2>
-              <span class="tooltiptext">Estudiante de desarrolo de software</span>
+          <!--Información, de la portada-->
+            <div class="text_portada">
+            <div class="tooltip"><h2 class="name_portada"></h2>
+              <span class="tooltiptext" >Estudiante de desarrolo de software</span>
             </div>
-
-            <!--
-            <div class="text-block">
-              <h4>Información</h4>
-              <p>Sebastián Pulgarín Gómez (Colombia, 9 de enero de 2004-Cali, 16 años) Estudiante de media tecnica de Desarrollo de software con el politecnico jaime isaza y beneficiario de camino flexible de la Universidad de Medellín en la materia pensamiento algoritmico.</p>
-              <button class="button"><a href="#acerca"><span>Leer más </span></a></button>
-            </div>
-            -->
+          </div>
           </div>
 
-          </div>
+         
 
         <!--Acerca de-->  
-        <div class="content center" id="acerca">
-          
-          </style>
-          </head>
-          <body>
-          
-          <div style="text-align:center">
-            <h2 class="hobbies_title">Hobbies</h2>
-            <p>Haz click en las secciones</p>
-          </div>
-          
-          <!-- Three columns -->
-          <div class="row">
-            <div class="column" onclick="openTab('b1');" style="background:green;">
-              Box 1
-            </div>
-            <div class="column" onclick="openTab('b2');" style="background:blue;">
-              Box 2
-            </div>
-            <div class="column" onclick="openTab('b3');" style="background:red;">
-              Box 3
-            </div>
-          </div>
-          
-          <!-- Full-width columns: (hidden by default) -->
-          <div id="b1" class="containerTab" style="display:none;background:green">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-            <h2>Box 1</h2>
-            <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-          </div>
-          
-          <div id="b2" class="containerTab" style="display:none;background:blue">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-            <h2>Box 2</h2>
-            <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-          </div>
-          
-          <div id="b3" class="containerTab" style="display:none;background:red">
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-            <h2>Box 3</h2>
-            <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
-          </div>
-        </div>
-        </div>
-       <div class="Espacio">
-        <br><br><br><br><br><br><br>
-       </div>
+        <div class="ContentAcerca center" id="acerca">
+          <div>
+            <h2 class="hobbies_title">Mis Hobbies</h2>
+            <!--Acordeon-->
+          </div>  
+        </div> 
+      
         
         <!--Habilidades-->
+        <div class="container_habilidades"></div>
         <div class="habilidades" id="habilidades">
           <h1 class="center">Habilidades</h1>
 
@@ -134,6 +90,10 @@
             </div>
         </div>
 
+        <div class="perfil_flotante">
+          <img src="img/Perfilf.png" alt="">
+          <h5 style="background-color: rgba(41, 24, 24, 0.295);">Sebastián</h5>
+        </div>
     
         
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -191,14 +151,20 @@
         </div>
 
         <script>
-          function openTab(tabName) {
-  var i, x;
-  x = document.getElementsByClassName("containerTab");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  document.getElementById(tabName).style.display = "block";
+          var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
-          </script>
+        </script>
 </body>
 </html>
