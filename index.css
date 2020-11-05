@@ -114,9 +114,14 @@ body {
 .hobbies_title{
   padding-top: 2%;
   font-family: 'Allerta Stencil', sans-serif;
-  color: #ccc;
+  color: rgb(255, 255, 255);
 }
 
+.titulos_generales{
+  padding-top: 2%;
+  font-family: 'Allerta Stencil', sans-serif;
+  color: rgb(255, 255, 255);
+}
 /* Float four columns side by side */
 .column {
   float: left;
@@ -165,6 +170,7 @@ body {
 
 .container_hab{
   padding-left: 50px;
+  text-decoration:none;
 }
 
 
@@ -387,7 +393,7 @@ input[type=submit]:hover {
 
 .perfil_flotante{
   position: fixed;
-  top: 0.1%;
+  bottom: 2.5%;
   right: 1%;
   text-align: center;
   color: #ccc;
@@ -404,7 +410,7 @@ width:         100px;
 height:        35px;
 color:         #ffffff;
 display:       inline-block;
-font:          normal bold 14px/35px "Ubuntu", sans-serif;
+font:          14px/35px;
 text-align:    center;
 }
 
