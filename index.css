@@ -462,8 +462,8 @@ text-align:    center;
 
 .modal-body {padding: 2px 16px;}
 
-.modal-footer {
-  padding: 2px 16px;
+.modal-footer { 
+  padding: 3px 16px;
   background-color: #292929;
   color: white;
   
