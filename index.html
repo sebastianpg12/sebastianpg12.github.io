@@ -29,26 +29,26 @@
             <div class="imagen_portada">
               <!---->
               <div class="topnav center">
-                <a href="#acerca" class="a_acerca">Inicio</a>
+                <a href="#portada_inicio" class="a_acerca">Inicio</a>
                 <a href="#habilidades">Habilidades</a>
-                <a href="#">Portafolio</a>
-                <a href="#">Información</a>
+                <a href="#estudios">Estudios</a>
+                <a href="#portafolio">Portafolio</a>
               </div>
 
           <!--Información, de la portada-->
-            <div class="text_portada">
-            <div class="tooltip"><h2 class="name_portada"></h2>
+            <div class="text_portada" id="portada_inicio">
+          
               
             </div>
           </div>
-          </div>
+          
 
          
 
         <!--Acerca de-->  
         <div class="content_hab center" id="acerca">
           <div>
-            <h1 class="hab_title">Habilidades</h1>
+            <h1 class="hab_title" id="habilidades">Habilidades</h1>
             
           </div>  
         </div> 
@@ -56,7 +56,7 @@
      
         <!--Habilidades-->
       
-        <div class="habilidades" id="habilidades">
+        <div class="habilidades" >
             <p class="center">HTML <img src="img/html.png" width="23px" height="23px" alt=""></p>
             <div class="container_hab ">
               <div class="skills html">2 años de practica</div>
@@ -85,12 +85,12 @@
           <div class="divider">
   
         </div>
-          <div class="main">
+          <div class="main" id="estudios">
             <div class="informacion">
                 <div class="avatar center ">
                     <img src="svg/undraw_professor_8lrt.svg" alt="">
                 </div>
-                <div class="nombre">
+                <div class="nombre" >
                     <h1 class="titulo_comun2">Estudios</h1>
                     <span class="titulo_cursivo">2019/2020</span>
                 </div>
@@ -154,12 +154,12 @@
         </div>
         
         <div class="logros">
-          <h2 class="titulo_comun2 center">Portafolio</h2>
+          <h2 class="titulo_comun2 center" id="portafolio">Portafolio</h2>
         </div>
 
        
-            
-          <div class="container-fluid bg-3 text-center">    
+        <div class="portafolio_img">    
+          <div class="container-fluid bg-3 text-center ">    
             <br><br><br>
             <div class="row">
               <div class="col-sm-3">
@@ -193,26 +193,28 @@
               </div>
               <div class="col-sm-3"> 
                 <p>java</p>
-                <img src="img/" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/pagina7.png" class="img-responsive" style="width:100%" alt="Image">
               </div>
               <div class="col-sm-3">
                 <p>Some text..</p>
-                <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/pagina7.png" class="img-responsive" style="width:100%" alt="Image">
               </div>
             </div>
           </div><br><br>
           
-          <footer class="container-fluid text-center">
+          <footer class="container-fluid text-center footer_portafolio">
             <p>Prototipo del videojuego Zomga (Zombie game) realizado por Sebastián Pulgarín en unity</p>
             <video width="400" controls>
               <source src="img/ZOMGA.mp4" type="video/mp4">
               <source src="mov_bbb.ogg" type="video/ogg">
               Your browser does not support HTML5 video.
             </video>
+            <br><br>
           </div>
           </footer>
+          
         </div>
-        
+      </div>
         
         <div style="background-color: darkgrey;">
 

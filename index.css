@@ -544,3 +544,12 @@ text-align:    center;
   padding: 2%;
 }
 
+.portafolio_img{
+  background-color: rgb(250, 71, 71);
+}
+
+.footer_portafolio{
+ background-color: rgb(150, 35, 35);
+ border: rgb(156, 33, 33) 20px groove;
+ color: #f1eae8;
+}
