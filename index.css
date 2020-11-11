@@ -13,6 +13,8 @@ body {
   background-color: rgba(221, 221, 221, 0.822);
   position: fixed;
   z-index: 2;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1em;
 }
 /* Estilos de los a de navegación */
 .topnav a {
@@ -81,17 +83,16 @@ body {
 /*estilos hobbies*/
 
 .hab_title{
-  padding-top: 2%;
-  font-family: 'Allerta Stencil', sans-serif;
+  margin-top: -10px;
+  padding-top: 3%;
   color: rgb(255, 255, 255);
-  font-size: 2em;
-  
-  
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.8em;
 }
 
 .titulos_generales{
   padding-top: 2%;
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: rgb(255, 255, 255);
 }
 
@@ -112,6 +113,7 @@ body {
 .container_hab{
   padding-left: 4%;
   text-decoration:none;
+
 }
 
 
@@ -169,6 +171,8 @@ body {
   background-repeat: repeat;
   text-decoration: none;
   padding-top: 1.5%; /* Add top padding */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
 }
 .skills {
   text-align: center; /* Right-align text */
@@ -176,11 +180,12 @@ body {
   padding-bottom: 10px; /* Add bottom padding */
   color: white; /* White text color */
   text-decoration: none;
+  font-size: 1.1em;
 }
 
 .html {width: 90%; background-color: #f44336;} /* Green */
 .css {width: 90%; background-color: #4e4e4e;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
+.js {width: 80%; background-color: #f44336;} /* Red */
 .py {width: 60%; background-color: #4e4e4e;} /* Dark Grey */
 
 
@@ -466,7 +471,7 @@ text-align:    center;
 }
 
 .parrafos{
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 .navegacion {
   margin-top: 5%;
@@ -495,18 +500,6 @@ text-align:    center;
   justify-content: space-between;
 }
 
-
-.botonDescargar {
-  background-color: #f8f8ff;
-  color: rgb(37, 36, 36);
-  font-family: 'Poppins', sans-serif;
-  border-width: 0;
-  padding: 6px 2%;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-}
-
 .descripcion {
   margin-top: 10%;
 }
@@ -525,20 +518,20 @@ text-align:    center;
 }
 
 .titulo_comun{
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   color: rgb(253, 171, 151);
 } 
 .titulo_comun2{
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .titulo_portafolio{
-  font-family: 'Allerta Stencil', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
   color: #ffffff;
 }
 .titulo_cursivo{
-  font-family: 'Satisfy', cursive;
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.5em;
   color: rgb(253, 171, 151);
 }
@@ -557,7 +550,27 @@ text-align:    center;
 .footer_portafolio{
  padding: 2%;
  background-color: rgb(32, 32, 32);
- border: rgb(255, 255, 255) 11px groove;
  color: #f1eae8;
- font-family: 'Allerta Stencil', sans-serif;
+ font-family: 'Quicksand', sans-serif;
+}
+
+.pasiones{
+  background-image: url(img/Diseño\ sin\ título\ \(8\).png);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
+  padding-top: 3%;
+}
+
+.pasiones_parrafos{
+  padding-left: 9%;
+  padding-right: 9%;
+}
+
+.div_pasiones{
+  padding-bottom: 3%;
+}
+
+.titulo_mis_pasiones{
+  
 }
