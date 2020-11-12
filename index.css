@@ -38,7 +38,7 @@ body {
 }
 /*Estilos del fondo de la portada*/
 .imagen_portada{
-  background-image: url(img/Joven\ creativo\ \(2\).gif);
+  background-image: url(img/Joven\ creativo\ \(3\).gif);
   background-size: 100%;
   background-position-y: 0%;
   background-repeat: no-repeat;
@@ -87,7 +87,6 @@ body {
   padding-top: 3%;
   color: rgb(255, 255, 255);
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.8em;
 }
 
 .titulos_generales{
@@ -450,10 +449,10 @@ text-align:    center;
 }
 
 .color{
-  background-color: #8a7878;
+  background-color: #8b6464;
 }
 .informacion {
-  background-color: #585858;
+  background-color: #727272;
   width: 45%;
   padding: 2%;
 }
@@ -488,7 +487,7 @@ text-align:    center;
 
 
 .contenido {
-  background-color: #585858;
+  background-color: #727272;
   width: 50%;
   padding: 2%;
  
@@ -519,7 +518,7 @@ text-align:    center;
 
 .titulo_comun{
   font-family: 'Quicksand', sans-serif;
-  color: rgb(253, 171, 151);
+  color: #ffffff;
 } 
 .titulo_comun2{
   font-family: 'Quicksand', sans-serif;
@@ -527,8 +526,9 @@ text-align:    center;
 
 .titulo_portafolio{
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5em;
+  
   color: #ffffff;
+  font-size: 0.9em;
 }
 .titulo_cursivo{
   font-family: 'Quicksand', sans-serif;
@@ -538,7 +538,7 @@ text-align:    center;
 
 .logros{
   background-color: rgb(37, 37, 37);
-  color: rgb(255, 255, 255);
+  color:  #ffff;
   margin-bottom: -10px;
   padding: 2%;
 }
