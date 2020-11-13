@@ -3,3 +3,4 @@ rgb(255, 116, 116); rojo mas claro
 # rgb(37, 37, 37); gris del las zonas de titulos solos
 color: #c4dafc; titulos azul claro
 #60cee4; azul util
+#75A3FF; azul oscurito
