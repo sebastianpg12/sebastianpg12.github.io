@@ -27,7 +27,7 @@ body {
 }
 /*Color rojo del boton inicio de navegacíón*/ /**/
 .a_acerca{
-  background-color: #f44336;
+  background-color: #c4dafc;
   color: #ffff;
 }
 /* Hover de navegacion */
@@ -107,7 +107,7 @@ body {
 .redes a, .icon-mas2{
   display: block;
   text-decoration: none;
-  background: #f44336;
+  background: #c4dafc;
   color: #fff;
   width: 55px;
   height: 55px;
@@ -262,7 +262,7 @@ body {
 }
 
 input[type=submit] {
-  background-color: #f44336;
+  background-color: #c4dafc;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -496,7 +496,7 @@ text-align:    center;
 
 .titulo_comun{
   font-family: 'Quicksand', sans-serif;
-  color: rgb(255, 116, 116);
+  color: #c4dafc;
 } 
 .titulo_comun2{
   font-family: 'Quicksand', sans-serif;
@@ -561,7 +561,7 @@ position: relative;
 border-bottom: 1px solid #373636;
 }
 .single-cta i {
-color: #f44336;
+  color: #c4dafc;
 font-size: 30px;
 float: left;
 margin-top: 8px;
@@ -647,7 +647,7 @@ left: 0;
 bottom: -15px;
 height: 2px;
 width: 50px;
-background: #f44336;
+background: #c4dafc;
 }
 .footer-widget ul li {
 display: inline-block;
@@ -656,7 +656,7 @@ width: 50%;
 margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-color: #f44336;
+color: #c4dafc;
 }
 .footer-widget ul li a {
 color: #878787;
@@ -676,9 +676,9 @@ color: #fff;
 .subscribe-form button {
   position: absolute;
   right: 0;
-  background: #f44336;
+  background:#c4dafc;
   padding: 13px 20px;
-  border: 1px solid #f44336;
+  border: 1px solid #c4dafc;
   top: 1;
 }
 .subscribe-form button i {
@@ -696,14 +696,14 @@ font-size: 14px;
 color: #878787;
 }
 .copyright-text p a{
-color: #f44336;
+color:#c4dafc;
 }
 .footer-menu li {
 display: inline-block;
 margin-left: 20px;
 }
 .footer-menu li:hover a{
-color: #f44336;
+color: #c4dafc;
 }
 .footer-menu li a {
 font-size: 14px;
