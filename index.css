@@ -592,9 +592,7 @@ height: 330px;
 background-size: cover;
 background-position: 100% 100%;
 }
-.footer-logo {
-margin-bottom: 30px;
-}
+
 .footer-logo img {
   max-width: 200px;
 }
@@ -713,3 +711,20 @@ color: #878787;
 .video{
   margin-left: -4%;
 }
+.video-responsive {
+  position: relative;
+  padding-bottom: 1%; 
+  padding-top: 1px; /* IE6 workaround*/
+  height: 0;
+  overflow: hidden;
+  }
+  
+  .video-responsive iframe,
+  .video-responsive object,
+  .video-responsive embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 15%;
+  }
