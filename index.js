@@ -29,14 +29,14 @@ window.sr = ScrollReveal();
 
   window.sr = ScrollReveal();
   sr.reveal('.habilidades ', {
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
     distance: '-100px'
   });
 
   window.sr = ScrollReveal();
   sr.reveal('.col-sm-3 ', {
-    duration: 2000,
+    duration: 1000,
     origin: 'bottom',
     distance: '-40px'
   });
@@ -44,14 +44,14 @@ window.sr = ScrollReveal();
 
   window.sr = ScrollReveal();
   sr.reveal('.heroe', {
-    duration: 1000,
+    duration: 400,
     origin: 'top',
     distance: '-40px'
   });
 
   window.sr = ScrollReveal();
   sr.reveal('.cta-text ', {
-    duration: 1000,
+    duration: 400,
     origin: 'top',
     distance: '-40px'
   });
