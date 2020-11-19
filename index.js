@@ -1,6 +1,6 @@
 window.sr = ScrollReveal();
   sr.reveal('.topnav', {
-    duration: 2000,
+    duration: 4000,
     origin: 'bottom',
     distance: '-100px'
   });
@@ -44,7 +44,7 @@ window.sr = ScrollReveal();
 
   window.sr = ScrollReveal();
   sr.reveal('.heroe', {
-    duration: 400,
+    duration: 1800,
     origin: 'top',
     distance: '-40px'
   });
